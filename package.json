@@ -1,0 +1,31 @@
+{
+  "name": "route-planner-backend",
+  "version": "1.0.0",
+  "description": "Route planning and optimization system for YBD Express",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": ["route-planning", "logistics", "optimization"],
+  "author": "Siyi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  }
+}
